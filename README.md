@@ -1,14 +1,14 @@
-# 🔐 Cofre de Logins
+# Cofre de Logins
 
 Importador de logins em Node.js que lê um arquivo de texto desorganizado (do tipo "bloco de notas"), extrai os dados de cada conta e grava tudo **criptografado** em um banco SQL Server, protegido por uma **senha mestra**.
 
 Projeto de estudo criado para praticar, na prática, o conteúdo de Banco de Dados da faculdade (DDL, DML, restrições e transações) integrado a uma aplicação real.
 
-> ⚠️ Este é um projeto educacional. Para guardar senhas reais no dia a dia, prefira um gerenciador de senhas auditado, como o [Bitwarden](https://bitwarden.com).
+> Este é um projeto educacional. Para guardar senhas reais no dia a dia, prefira um gerenciador de senhas auditado, como o [Bitwarden](https://bitwarden.com).
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Leitura de texto bagunçado**: entende rótulos escritos de vários jeitos (`EMAIL`, `Email`, `EMAI`, `Emal`...), linhas em branco, separadores de tamanhos diferentes e comentários no telefone
 - **Validação antes de gravar**: blocos com problema (sem senha, duas senhas, valores com "ou") não entram no banco e são listados para revisão manual
@@ -17,7 +17,7 @@ Projeto de estudo criado para praticar, na prática, o conteúdo de Banco de Dad
 - **Senha mestra**: a chave de criptografia não fica salva em lugar nenhum; ela é calculada a partir da senha com `scrypt` a cada execução
 - **Busca por serviço** direto no terminal, com a senha digitada aparecendo como `****`
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - [Node.js](https://nodejs.org)
 - [SQL Server](https://www.microsoft.com/sql-server) (Express)
@@ -25,7 +25,7 @@ Projeto de estudo criado para praticar, na prática, o conteúdo de Banco de Dad
 - [dotenv](https://www.npmjs.com/package/dotenv): variáveis de ambiente
 - Módulo nativo `crypto` do Node.js (AES-256-GCM + scrypt)
 
-## 🔒 Decisões de segurança
+## Decisões de segurança
 
 | Risco | Como o projeto trata |
 | --- | --- |
@@ -38,7 +38,7 @@ Projeto de estudo criado para praticar, na prática, o conteúdo de Banco de Dad
 
 O nome do serviço é o único campo **não** criptografado, para permitir buscas com `LIKE` no SQL.
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 ├── conexao.js          # Configuração da conexão com o SQL Server
@@ -52,7 +52,7 @@ O nome do serviço é o único campo **não** criptografado, para permitir busca
 └── .env.example        # Modelo das variáveis de ambiente
 ```
 
-## 🚀 Como rodar
+## Como rodar
 
 ### 1. Pré-requisitos
 
@@ -119,7 +119,7 @@ node buscar.js
 node buscar.js steam
 ```
 
-## 📝 Formato do arquivo de entrada
+## Formato do arquivo de entrada
 
 Cada login fica separado por uma linha de tracinhos. A primeira linha do bloco é o título e as demais seguem o formato `rótulo: valor`:
 
@@ -138,7 +138,7 @@ senha: OutraSenha456
 ---------------------------------------------
 ```
 
-## 📚 O que pratiquei
+## O que pratiquei
 
 - **DDL**: `CREATE TABLE`, `IDENTITY`, `NOT NULL`, `PRIMARY KEY`, `ALTER TABLE ... ALTER COLUMN`
 - **DML e DQL**: `INSERT`, `SELECT`, `WHERE`, `LIKE`, `ORDER BY`, `TRUNCATE`
@@ -147,6 +147,6 @@ senha: OutraSenha456
 - Expressões regulares para interpretar texto sem padrão fixo
 - Criptografia simétrica, derivação de chave e boas práticas com segredos
 
-## 👤 Autor
+## Autor
 
 Gustavo, estudante de Sistemas de Informação na Faculdade Impacta. [GitHub @gu2007](https://github.com/gu2007)
