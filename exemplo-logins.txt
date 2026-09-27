@@ -1,0 +1,79 @@
+Email e senha da Netflix:
+
+EMAIL: ana.teste@example.com
+SENHA: Nf#8kPq2x
+--------------------------------------------------------------------------------------------------
+Email e senha do Spotify
+
+Email: bruno.falso@example.com
+Senha: SpT!4471zz
+--------------------------------------------------------------------------------------------------
+
+Email e senha da Steam:
+
+EMAI: carlos.jogador@example.com
+SENHA: St3am_Xv91
+--------------------------------------------------------------------------------------------------
+Email e senha do Discord:
+
+email: eduardo.dev@example.com
+nome de usuário: edu_dev_teste
+senha: D1sc0rd!pp
+--------------------------------------------------------------------------------------------------
+
+Email e senha do Instagram:
+
+Email: fernanda.foto@example.com
+Senha: Inst@9921kk
+Telefone: (11) 90000-1001
+
+----------------------------------------------------------------------------------------------------------------
+Email  senha do Facebook:
+
+Enail: gabriel.teste@example.com
+Senha: Fb_77xLm!2
+----------------------------------------------------------------------------------------------------------------
+Email e senha do iFood:
+
+Email: natalia.fome@example.com
+Senha: iF00d#2210
+Tel iFood: (11) 90000-1004 (número antigo)
+----------------------------------------------------------------------------------------------------------------
+Email  senha da twitch:
+
+Email (nome de usuário): mateus_live_teste
+
+Senha: Tw1tch#Str
+
+----------------------------------------------------------------------------------------------------------------
+Email e senha da Oracle Cloud:
+
+Email: erica.nuvem@example.com
+nome da conta: erica-cloud-teste
+Senha: 0r@cl3#Vm1
+----------------------------------------------------------------------------------------------------------------
+
+Senha do Wi-Fi de casa:
+
+Senha: W1f1_Casa#2026
+
+----------------------------------------------------------------------------------------------------------------
+Email e senha do Nubank:
+
+Email: sabrina.financas@example.com
+
+Senha do app: 473819
+
+Senha do cartão: 9021
+
+----------------------------------------------------------------------------------------------------------------
+Email e senha do Google:
+
+Email: ursula.conta@example.com ou ursula.backup@example.com
+Senha: G00gle!Main
+----------------------------------------------------------------------------------------------------------------
+Email e senha da OLX:
+
+Email: tania.vendas@example.com
+
+----------------------------------------------------------------------------------------------------------------

@@ -12,7 +12,8 @@ async function importar() {
     return;
   }
 
-  const { validos, revisar } = extrairLogins('logins.txt');
+ const arquivo = process.argv[2] || 'logins.txt';
+const { validos, revisar } = extrairLogins(arquivo);;
 
   const pool = await sql.connect(config);
   const transacao = new sql.Transaction(pool);
